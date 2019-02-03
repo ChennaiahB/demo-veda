@@ -1,0 +1,8 @@
+---
+applications:
+ - name: demo-veda
+   memory: 1GB
+   instances: 1
+   path: ./build/libs/demo-0.0.1-SNAPSHOT.jar
+   buildpacks: 
+    - https://github.com/cloudfoundry/java-buildpack.git
